@@ -1,0 +1,67 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 15.182024770264858,
+      "y": 5.55492627078484
+    },
+    "rotation": 178.56790381583534
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "First Shot"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 2.8
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "R1NA"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.4
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "R2NA"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.4
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "R3NA"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.4
+          }
+        }
+      ]
+    }
+  },
+  "folder": "New Folder",
+  "choreoAuto": false
+}

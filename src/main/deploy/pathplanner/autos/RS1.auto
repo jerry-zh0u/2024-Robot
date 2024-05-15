@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 15.062541737066354,
+      "y": 5.536568320639416
+    },
+    "rotation": -178.66778014613053
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "AutoShooterFirst"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "R1NA"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "New Folder",
+  "choreoAuto": false
+}

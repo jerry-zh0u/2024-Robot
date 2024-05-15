@@ -1,0 +1,109 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 15.734968612794367,
+        "y": 6.796509307304329
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.613919227838457,
+        "y": 6.601836060814978
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 13.640552995391705,
+        "y": 5.97753909793534
+      },
+      "prevControl": {
+        "x": 13.566711419137123,
+        "y": 6.702529119343953
+      },
+      "nextControl": {
+        "x": 13.705175506507253,
+        "y": 5.343063534255426
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 15.734968612794367,
+        "y": 6.796509307304329
+      },
+      "prevControl": {
+        "x": 14.741463768641822,
+        "y": 6.460865778874414
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1,
+      "rotationDegrees": -87.02626891752006,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Intake",
+      "waypointRelativePos": 0.45,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoIntakeCommand"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shooter",
+      "waypointRelativePos": 1.65,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoShooterCommand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 117.89727103094745,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2024 Red Amp",
+  "previewStartingState": {
+    "rotation": 118.64761645680889,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

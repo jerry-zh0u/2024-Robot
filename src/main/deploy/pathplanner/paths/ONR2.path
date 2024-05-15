@@ -1,0 +1,151 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 15.674552777676984,
+        "y": 6.9679477447399965
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.822018215465004,
+        "y": 6.779987368819245
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 13.668952188118356,
+        "y": 6.2887192250846695
+      },
+      "prevControl": {
+        "x": 14.935898685266462,
+        "y": 6.342631841984589
+      },
+      "nextControl": {
+        "x": 12.017724235163163,
+        "y": 6.218454205809981
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.65960303349178,
+        "y": 5.984251968503937
+      },
+      "prevControl": {
+        "x": 9.487609943117153,
+        "y": 6.3091660722809815
+      },
+      "nextControl": {
+        "x": 8.129286258572517,
+        "y": 5.776152980877391
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 13.668952188118356,
+        "y": 6.2887192250846695
+      },
+      "prevControl": {
+        "x": 11.970880888980037,
+        "y": 6.335562571267796
+      },
+      "nextControl": {
+        "x": 15.269214853477179,
+        "y": 6.2445740481092535
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 15.674552777676984,
+        "y": 6.9679477447399965
+      },
+      "prevControl": {
+        "x": 13.915780688704235,
+        "y": 6.316799299585964
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 2.0,
+      "rotationDegrees": -154.20397350550022,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1,
+      "rotationDegrees": 179.50608310138122,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 3,
+      "rotationDegrees": 92.66300076606703,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Intake",
+      "waypointRelativePos": 1.5,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoIntakeCommand"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shooter",
+      "waypointRelativePos": 3.7,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoShooterCommand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 117.52522574374449,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2024 Red Amp",
+  "previewStartingState": {
+    "rotation": 117.29957221133276,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

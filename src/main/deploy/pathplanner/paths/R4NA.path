@@ -1,0 +1,74 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 15.117771944755876,
+        "y": 5.536568320639416
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.851581667647245,
+        "y": 5.5182103704939935
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.73838426922137,
+        "y": 7.4916900111269715
+      },
+      "prevControl": {
+        "x": 8.814844421178094,
+        "y": 7.304787417454984
+      },
+      "nextControl": {
+        "x": 8.655773493566965,
+        "y": 7.693627462726625
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 15.117771944755876,
+        "y": 5.536568320639416
+      },
+      "prevControl": {
+        "x": 14.824044742429109,
+        "y": 5.5182103704939935
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1,
+      "rotationDegrees": -176.698134325565,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 178.96775530843425,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2024 Red Front",
+  "previewStartingState": {
+    "rotation": -178.87669728592465,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

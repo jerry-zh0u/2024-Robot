@@ -1,0 +1,102 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 15.624661891263868,
+        "y": 4.075371117931965
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.734638313784473,
+        "y": -0.2927709136445385
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.785533348527466,
+        "y": 2.4007214918852084
+      },
+      "prevControl": {
+        "x": 8.832376694710593,
+        "y": 2.5529623669803687
+      },
+      "nextControl": {
+        "x": 8.289861752925987,
+        "y": 0.7897888061804461
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 15.624661891263868,
+        "y": 4.075371117931965
+      },
+      "prevControl": {
+        "x": 14.31304819813634,
+        "y": -0.6440960100179831
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1,
+      "rotationDegrees": 177.39743779750012,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "intake",
+      "waypointRelativePos": 0.7,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    },
+    {
+      "name": "shoot",
+      "waypointRelativePos": 1.85,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoShooterCommand"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -121.42956561483841,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "2024 Red Source",
+  "previewStartingState": {
+    "rotation": -118.07248693585309,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
